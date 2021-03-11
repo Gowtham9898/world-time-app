@@ -33,16 +33,14 @@
 				<extensions>true</extensions>
 				<configuration>
 					<cloudHubDeployment>
-					  	<uri>https://anypoint.mulesoft.com</uri>
+						<objectStoreV2>true</objectStoreV2>
 						<username>gowtham_febmar</username>
 						<password>Nani1234</password>
-						<!-- Environment Parameter -->
-						<environment>Sandbox</environment>
-						<applicationName>world-time-zone-app</applicationName>
 						<workers>1</workers>
 						<workerType>Micro</workerType>
+						<environment>Sandbox</environment>
 						<muleVersion>4.3.0</muleVersion>
-						<businessGroup>CApgemini</businessGroup>
+						<applicationName>world-time</applicationName>
 					</cloudHubDeployment>
 				</configuration>
 			</plugin>
